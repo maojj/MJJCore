@@ -16,6 +16,11 @@
 		2091764B171C620800D940A0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2091764A171C620800D940A0 /* Default.png */; };
 		2091764D171C620800D940A0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2091764C171C620800D940A0 /* Default@2x.png */; };
 		2091764F171C620800D940A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2091764E171C620800D940A0 /* Default-568h@2x.png */; };
+		20917660171C628B00D940A0 /* HeadIconImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20917656171C628B00D940A0 /* HeadIconImageView.m */; };
+		20917661171C628B00D940A0 /* UIButton+navgation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20917659171C628B00D940A0 /* UIButton+navgation.m */; };
+		20917662171C628B00D940A0 /* UIImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2091765B171C628B00D940A0 /* UIImageButton.m */; };
+		20917663171C628B00D940A0 /* UINavigationBar+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2091765D171C628B00D940A0 /* UINavigationBar+BackgroundImage.m */; };
+		20917664171C628B00D940A0 /* UIRoundCornerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2091765F171C628B00D940A0 /* UIRoundCornerTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,16 @@
 		2091764A171C620800D940A0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2091764C171C620800D940A0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2091764E171C620800D940A0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		20917656171C628B00D940A0 /* HeadIconImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadIconImageView.m; sourceTree = "<group>"; };
+		20917657171C628B00D940A0 /* HeadIconImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadIconImageView.h; sourceTree = "<group>"; };
+		20917658171C628B00D940A0 /* UIButton+navgation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+navgation.h"; sourceTree = "<group>"; };
+		20917659171C628B00D940A0 /* UIButton+navgation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+navgation.m"; sourceTree = "<group>"; };
+		2091765A171C628B00D940A0 /* UIImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageButton.h; sourceTree = "<group>"; };
+		2091765B171C628B00D940A0 /* UIImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageButton.m; sourceTree = "<group>"; };
+		2091765C171C628B00D940A0 /* UINavigationBar+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundImage.h"; sourceTree = "<group>"; };
+		2091765D171C628B00D940A0 /* UINavigationBar+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundImage.m"; sourceTree = "<group>"; };
+		2091765E171C628B00D940A0 /* UIRoundCornerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRoundCornerTextField.h; sourceTree = "<group>"; };
+		2091765F171C628B00D940A0 /* UIRoundCornerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRoundCornerTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,7 @@
 		2091762C171C620700D940A0 = {
 			isa = PBXGroup;
 			children = (
+				20917655171C622300D940A0 /* UI */,
 				2091763E171C620800D940A0 /* MJJCore */,
 				20917637171C620700D940A0 /* Frameworks */,
 				20917636171C620700D940A0 /* Products */,
@@ -97,6 +113,23 @@
 				2091764E171C620800D940A0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20917655171C622300D940A0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				20917656171C628B00D940A0 /* HeadIconImageView.m */,
+				20917657171C628B00D940A0 /* HeadIconImageView.h */,
+				20917658171C628B00D940A0 /* UIButton+navgation.h */,
+				20917659171C628B00D940A0 /* UIButton+navgation.m */,
+				2091765A171C628B00D940A0 /* UIImageButton.h */,
+				2091765B171C628B00D940A0 /* UIImageButton.m */,
+				2091765C171C628B00D940A0 /* UINavigationBar+BackgroundImage.h */,
+				2091765D171C628B00D940A0 /* UINavigationBar+BackgroundImage.m */,
+				2091765E171C628B00D940A0 /* UIRoundCornerTextField.h */,
+				2091765F171C628B00D940A0 /* UIRoundCornerTextField.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +199,11 @@
 			files = (
 				20917645171C620800D940A0 /* main.m in Sources */,
 				20917649171C620800D940A0 /* AppDelegate.m in Sources */,
+				20917660171C628B00D940A0 /* HeadIconImageView.m in Sources */,
+				20917661171C628B00D940A0 /* UIButton+navgation.m in Sources */,
+				20917662171C628B00D940A0 /* UIImageButton.m in Sources */,
+				20917663171C628B00D940A0 /* UINavigationBar+BackgroundImage.m in Sources */,
+				20917664171C628B00D940A0 /* UIRoundCornerTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
